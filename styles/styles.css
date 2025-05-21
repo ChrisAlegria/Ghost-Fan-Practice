@@ -1,9 +1,10 @@
 body{
     margin: 0;
-    background-image: url('/assets/img/Background.png');
+    background-image: url('../assets/img/Background.png');
     background-size: cover;
 }
 
+/** Header Section **/
 header{
     width: 100%;
     padding: 1vh 4vh; 
@@ -19,6 +20,7 @@ header a{
     color: rgb(210, 210, 210);
 }
 
+/** Navegation Menu Section **/
 nav ul{
     margin-top: 3%;
     list-style-type: none;
@@ -46,6 +48,7 @@ nav ul li{
     height: 3.5rem;
 }
 
+/** Cover Section **/
 .cover-container{
     height: 150vh;
 }
@@ -59,6 +62,7 @@ nav ul li{
     width: 100%;
 }
 
+/** Merch Section **/
 .merch{
     justify-content: space-between;
     display: flex;
@@ -103,4 +107,26 @@ nav ul li{
     background-color: white;
     color: black;
     border: 2px solid black;
+}
+
+/** Skeleta Section **/
+.skeleta-container{
+    background-color: rgb(204, 255, 238);
+    width: 88%;
+    height: 92%;
+    position: absolute;
+    top: 180%;
+    padding: 0 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skeleta-disk{
+    background-color: red;
+    width: 49%;
+}
+
+.skeleta-buttons{
+    background-color: blue;
+    width: 49%;
 }
