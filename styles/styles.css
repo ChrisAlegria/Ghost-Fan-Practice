@@ -111,7 +111,6 @@ nav ul li{
 
 /** Skeleta Section **/
 .skeleta-container{
-    background-color: rgb(204, 255, 238);
     width: 88%;
     height: 92%;
     position: absolute;
@@ -126,7 +125,37 @@ nav ul li{
     width: 49%;
 }
 
-.skeleta-buttons{
+.skeleta-disk>img{
+    width: 100%;
+    border: 1px solid white;
+}
+
+.skeleta-order{
     background-color: blue;
     width: 49%;
+    padding: 10% 0 ;
+}
+
+.skeleta-logo, .skeleta-buttons{
+    width: 100%;
+}
+
+.skeleta-logo{
+    height: 40%;
+}
+
+.skeleta-logo>img{
+    width: 100%;
+}
+
+.skeleta-buttons{
+    height: 60%;
+}
+
+.skeleta-logo{
+    background-color: brown;
+}
+
+.skeleta-buttons{
+    background-color: white;
 }
