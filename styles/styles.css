@@ -130,32 +130,25 @@ nav ul li{
     border: 1px solid white;
 }
 
-.skeleta-order{
+.skeleta-order{ 
     background-color: blue;
     width: 49%;
-    padding: 10% 0 ;
-}
-
-.skeleta-logo, .skeleta-buttons{
-    width: 100%;
-}
-
-.skeleta-logo{
-    height: 40%;
-}
-
-.skeleta-logo>img{
-    width: 100%;
+    padding: 9% 0;
 }
 
 .skeleta-buttons{
-    height: 60%;
+    width: 100%;
+    height: 45%;
+    background-color: white;
 }
 
 .skeleta-logo{
     background-color: brown;
+    height: auto;
+    width: 70%;
+    padding: 0 15%;  
 }
 
-.skeleta-buttons{
-    background-color: white;
+.skeleta-logo>img{
+    width: 100%;
 }
