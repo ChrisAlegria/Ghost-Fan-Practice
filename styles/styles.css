@@ -17,7 +17,7 @@ header{
 
 header a{
     text-decoration: none;
-    color: rgb(210, 210, 210);
+    color: #dcdcdc;
 }
 
 /** Navegation Menu Section **/
@@ -97,14 +97,14 @@ nav ul li{
 .button-merch>button{
     width: 100%;
     height: 100%;
-    color: rgb(210, 210, 210);
+    color: #dcdcdc;
     font-family: 'Moria Citadel', sans-serif;
     background-color: black;
     border: 1px solid white;
 }
 
 .button-merch>button:hover{
-    background-color: white;
+    background-color: #dcdcdc;
     color: black;
     border: 2px solid black;
 }
@@ -113,6 +113,7 @@ nav ul li{
 .skeleta-container{
     width: 88%;
     height: 92%;
+    color: #dcdcdc;
     position: absolute;
     top: 180%;
     padding: 0 6%;
@@ -120,6 +121,7 @@ nav ul li{
     justify-content: space-between;
 }
 
+/*&Disk*/
 .skeleta-disk{
     background-color: red;
     width: 49%;
@@ -130,25 +132,50 @@ nav ul li{
     border: 1px solid white;
 }
 
+/*&Order*/
 .skeleta-order{ 
-    background-color: blue;
-    width: 49%;
-    padding: 9% 0;
-}
-
-.skeleta-buttons{
-    width: 100%;
-    height: 45%;
-    background-color: white;
+    width: 39%;
+    padding: 9% 5%;
 }
 
 .skeleta-logo{
-    background-color: brown;
     height: auto;
-    width: 70%;
-    padding: 0 15%;  
+    display: flex;
+    justify-content: center;
 }
 
 .skeleta-logo>img{
+    width: 90%;
+}
+
+.skeleta-message{
+    margin-top: 3.5%;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Moria Citadel', sans-serif;
+}
+
+.skeleta-buttons{
+    margin-top: 10.5%;
+    height: 47%;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skeleta-buttons>button{
     width: 100%;
+    height: 26%;
+    font-family: 'Moria Citadel', sans-serif;
+    font-size: 0.9rem;
+    color: #dcdcdc;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.skeleta-buttons>button:hover{
+    background-color: #dcdcdc;
+    color: black;
+    border: 2px solid black;
 }
