@@ -35,6 +35,10 @@ nav ul li{
     margin-left: 20px;
 }
 
+nav ul li a:hover{
+    color: #6e71a2;
+}
+
 .logo-container{
     justify-content: left;
     width: 100%;
@@ -56,10 +60,6 @@ nav ul li{
 .cover-container, .cover-container img{
     width: 100%;
     height: 100%;
-}
-
-.cover-container>img{
-    width: 100%;
 }
 
 /** Merch Section **/
@@ -84,7 +84,7 @@ nav ul li{
     margin-right: 6%;
 }
 
-.merch-img-container, .merch-img-container>img{
+.merch-img-container, .merch-img-container img{
     width: 100%;
 }
 
@@ -107,6 +107,7 @@ nav ul li{
     background-color: #dcdcdc;
     color: black;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 /** Skeleta Section **/
@@ -127,7 +128,7 @@ nav ul li{
     width: 49%;
 }
 
-.skeleta-disk>img{
+.skeleta-disk>a>img{
     width: 100%;
     border: 1px solid white;
 }
