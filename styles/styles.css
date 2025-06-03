@@ -207,6 +207,9 @@ nav a:hover{
     margin-bottom: 0.9%;
 }
 
+.videos-navegation:last-child{
+    margin-top: 1%;
+}
 .videos-section{
     padding: 0 6%;
     display: flex;
@@ -230,4 +233,35 @@ nav a:hover{
     text-align: center;
     margin-top: 1.1%;
     margin-bottom: 4%;
+}
+
+/** Single Skeleta Section **/
+.satanized-container{
+    width: 100%;
+    position: absolute;
+    top: 452%;
+    color: #dcdcdc;
+    font-family: 'Moria Citadel', sans-serif;
+    text-align: center;
+}
+
+.satanized-title p:first-child{
+    font-size: 1.3rem;
+    margin-bottom: 0.7%;
+}
+.satanized-title p{
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.satanized-banner{
+    width: 88%;
+    height: 20%;
+    margin: 0 6%;
+    margin-top: 2.4%;
+}
+
+.satanized-banner>a>img{
+    width: 100%;
+    height: 100%;
 }
