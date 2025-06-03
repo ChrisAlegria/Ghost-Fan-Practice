@@ -203,19 +203,17 @@ nav a:hover{
     font-size: 0.9rem;
     width: 100%;
     text-align: center;
-    margin-top: 3.3%;
+    margin-top: 3.6%;
     margin-bottom: 0.9%;
 }
 
 .videos-section{
-    background-color: purple;
     padding: 0 6%;
     display: flex;
     justify-content: space-between;
 }
 
 .videos-section>div{
-    background-color: rgb(77, 23, 23);
     width: 49.1%;
     height: 5%;
 }
@@ -225,4 +223,11 @@ nav a:hover{
     height: 100%;
     border: solid 1px white;
     object-fit: cover;
+}
+
+.videos-section p{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 1.1%;
+    margin-bottom: 4%;
 }
