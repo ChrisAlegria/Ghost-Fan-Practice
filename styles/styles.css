@@ -286,3 +286,23 @@ nav a:hover{
     color: black;
     border: 2px solid black;
 }
+
+.get-satanized{
+    width: 100%;
+}
+
+.get-satanized>p{
+    background-color: red;
+    font-size: 1.75rem;
+}
+
+.get-satanized>div{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.satanized-characters-container>div:nth-child(even){
+    background-color: rgb(60, 60, 60);
+}
