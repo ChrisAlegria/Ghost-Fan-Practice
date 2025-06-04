@@ -259,9 +259,30 @@ nav a:hover{
     height: 20%;
     margin: 0 6%;
     margin-top: 2.4%;
+    position: relative;
 }
 
 .satanized-banner>a>img{
     width: 100%;
     height: 100%;
+}
+
+.satanized-banner>button{
+    background-color: black;
+    width: 13.7%;
+    height: 12%;
+    padding: 1% 0.5%;
+    border: 1px solid white;
+    position: absolute;
+    top: 83%;
+    left: 1.3%;
+    color: #dcdcdc;
+    font-family: 'Moria Citadel', sans-serif;
+    font-size: 0.88rem;
+}
+
+.satanized-banner>button:hover{
+    background-color: #dcdcdc;
+    color: black;
+    border: 2px solid black;
 }
