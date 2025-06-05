@@ -279,6 +279,7 @@ nav a:hover{
     color: #dcdcdc;
     font-family: 'Moria Citadel', sans-serif;
     font-size: 0.88rem;
+    cursor: pointer;
 }
 
 .satanized-banner>button:hover{
