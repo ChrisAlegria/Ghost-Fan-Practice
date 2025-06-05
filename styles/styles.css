@@ -237,7 +237,8 @@ nav a:hover{
 
 /** Single Skeleta Section **/
 .satanized-container{
-    width: 100%;
+    width: 88%;
+    margin: 0 6%;
     position: absolute;
     top: 452%;
     color: #dcdcdc;
@@ -255,9 +256,8 @@ nav a:hover{
 }
 
 .satanized-banner{
-    width: 88%;
+    width: 100%;
     height: 20%;
-    margin: 0 6%;
     margin-top: 2.4%;
     position: relative;
 }
@@ -292,17 +292,22 @@ nav a:hover{
 }
 
 .get-satanized>p{
-    background-color: red;
     font-size: 1.75rem;
 }
 
 .get-satanized>div{
-    background-color: blue;
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
-.satanized-characters-container>div:nth-child(even){
-    background-color: rgb(60, 60, 60);
+.get-satanized>div>div{
+    width: 23.6%;
+    height: 79vh;
+    background-color: red;
+}
+
+.get-satanized video{
+    width: 100%;
+    height: 100%;
 }
