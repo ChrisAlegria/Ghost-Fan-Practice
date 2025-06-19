@@ -369,6 +369,15 @@ nav a:hover{
     margin: 0 6%;
 }
 
-.skeletour>img{
+.skeletour-banner>img{
     width: 100%;
+}
+
+.skeletour-dates{
+    color: #dcdcdc;
+    font-family: 'Moria Citadel', sans-serif;
+}
+
+.skeletour-dates td{
+    border-bottom: 1px solid white;
 }
