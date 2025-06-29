@@ -398,6 +398,15 @@ nav a:hover{
     padding: 1% 1%;
 }
 
+.skeletour-dates tr{
+    transition: background-color 0.3s;
+    background-color: transparent;
+}
+
+.skeletour-dates>table tr:hover:not(.table-header){
+    background-color: rgba(196, 196, 196, 0.087);
+}
+
 .skeletour-dates>table td:last-child, .skeletour-dates>table td:nth-last-child(2){
     width: 13vw;
 }
