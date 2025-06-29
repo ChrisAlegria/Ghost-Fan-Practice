@@ -403,9 +403,13 @@ nav a:hover{
     background-color: transparent;
 }
 
+.skeletour-dates>table td:nth-child(1), .skeletour-dates>table td:nth-child(2){
+        cursor: pointer;
+
+}
+
 .skeletour-dates>table tr:hover:not(.table-header){
-    background-color: rgba(196, 196, 196, 0.087);
-    cursor: pointer;
+    background-color: rgba(196, 196, 196, 0.123);
 }
 
 .skeletour-dates>table td:last-child, .skeletour-dates>table td:nth-last-child(2){
@@ -425,6 +429,7 @@ nav a:hover{
     height: 100%;
     width: 100%;
     font-size: 0.7rem;
+    cursor: pointer;
     background-color: transparent;
     font-family: 'Moria Citadel', sans-serif;
     color: #dcdcdc;
@@ -435,6 +440,7 @@ nav a:hover{
     height: 100%;
     width: 100%;
     font-size: 0.7rem;
+    cursor: pointer;
     background-color: black;
     font-family: 'Moria Citadel', sans-serif;
     color: #dcdcdc;
