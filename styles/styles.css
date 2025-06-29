@@ -376,8 +376,57 @@ nav a:hover{
 .skeletour-dates{
     color: #dcdcdc;
     font-family: 'Moria Citadel', sans-serif;
+    font-size: 0.8rem;
 }
 
-.skeletour-dates td{
-    border-bottom: 1px solid white;
+.skeletour-dates>table{
+    margin-top: 4%;
+    width: 100%;
+    border-collapse: collapse;
 }
+
+.skeletour-dates td, th{
+    color: #dcdcdc;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #d1d1d1c5;
+    align-items: center;
+    height: 8vh;
+}
+
+.skeletour-dates>table td{
+    padding: 1% 1%;
+}
+
+.skeletour-dates>table td:last-child, .skeletour-dates>table td:nth-last-child(2){
+    width: 13vw;
+}
+
+.skeletour-dates>table td:last-child{
+    padding-left: 0;
+}
+
+.skeletour-dates>table td:nth-last-child(3){
+    text-align: right;
+}
+
+.skeletour-dates>table td:nth-last-child(2) button{
+    height: 100%;
+    width: 100%;
+    font-size: 0.7rem;
+    background-color: transparent;
+    font-family: 'Moria Citadel', sans-serif;
+    color: #dcdcdc;
+    border: 1px solid white;
+}
+
+.skeletour-dates>table td:last-child button{
+    height: 100%;
+    width: 100%;
+    font-size: 0.7rem;
+    background-color: black;
+    font-family: 'Moria Citadel', sans-serif;
+    color: #dcdcdc;
+    border: 1px solid white;
+}
+
