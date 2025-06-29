@@ -405,10 +405,12 @@ nav a:hover{
 
 .skeletour-dates>table tr:hover:not(.table-header){
     background-color: rgba(196, 196, 196, 0.087);
+    cursor: pointer;
 }
 
 .skeletour-dates>table td:last-child, .skeletour-dates>table td:nth-last-child(2){
     width: 13vw;
+    position: relative;
 }
 
 .skeletour-dates>table td:last-child{
@@ -439,3 +441,17 @@ nav a:hover{
     border: 1px solid white;
 }
 
+.tickets-type{
+    display: none;
+    width: 94%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 83%;
+    z-index: 1;
+}
+
+.tickets-type>div{
+    text-align: center;
+    padding: 10%;
+}
