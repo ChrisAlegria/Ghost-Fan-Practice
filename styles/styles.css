@@ -196,13 +196,13 @@ nav a:hover{
     color: #dcdcdc;
     background-color: black;
     border: 1px solid white;
-    transition: background-color 0.6s, border 0.6s, color 0.3s;
+    transition: background-color 0.6s, border-color 0.6s, color 0.3s;
 }
 
 .skeleta-buttons>button:hover{
     background-color: #dcdcdc;
     color: black;
-    border: 2px solid black;
+    border-color: black;
     cursor: pointer;
 }
 
@@ -301,13 +301,13 @@ nav a:hover{
     font-family: 'Moria Citadel', sans-serif;
     font-size: 0.88rem;
     cursor: pointer;
-    transition: background-color 0.6s, border 0.6s, color 0.3s;
+    transition: background-color 0.6s, border-color 0.6s, color 0.3s;
 }
 
 .satanized-banner>button:hover{
     background-color: #dcdcdc;
     color: black;
-    border: 2px solid black;
+    border-color:black;
 }
 
 .get-satanized{
@@ -353,13 +353,13 @@ nav a:hover{
     font-family: 'Moria Citadel', sans-serif;
     font-size: 0.88rem;
     cursor: pointer;
-    transition: background-color 0.6s, border 0.6s, color 0.3s;
+    transition: background-color 0.6s, border-color 0.6s, color 0.3s;
 }
 
 .get-satanized>div:last-child button:hover{
     background-color: #dcdcdc;
     color: black;
-    border: 2px solid black;
+    border-color:black;
 }
 
 /** Skeletour Section **/
@@ -380,7 +380,7 @@ nav a:hover{
 }
 
 .skeletour-dates>table{
-    margin-top: 4%;
+    margin-top: 2%;
     width: 100%;
     border-collapse: collapse;
 }
@@ -405,7 +405,6 @@ nav a:hover{
 
 .skeletour-dates>table td:nth-child(1), .skeletour-dates>table td:nth-child(2){
         cursor: pointer;
-
 }
 
 .skeletour-dates>table tr:hover:not(.table-header){
@@ -460,4 +459,37 @@ nav a:hover{
 .tickets-type>div{
     text-align: center;
     padding: 10%;
+}
+
+.skeletour-btns{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0% 6%;
+    height: 16vh;
+    justify-content: space-between;
+}
+
+.skeletour-btns button{
+    width: 100%;
+    border: 1px solid white;
+    height: 7vh;
+    color: #dcdcdc;
+    font-family: 'Moria Citadel', sans-serif;
+    cursor: pointer;
+}
+
+.skeletour-btns button:first-child{
+    background-color: transparent;
+}
+.skeletour-btns button:last-child{
+    background-color: black;
+    transition: color 0.6s, background-color 0.6s, border-color 0.6s;
+}
+
+.skeletour-btns button:last-child:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
 }
