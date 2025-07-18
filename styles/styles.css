@@ -506,15 +506,40 @@ footer{
     color: #dcdcdc;
     font-family: 'Libre Baskerville', serif;
     position: absolute;
-    top: 1118%;
+    top: 1120%;
+    font-weight: bold;
+}
+
+footer div{
+    margin-bottom: 2.8%;
 }
 
 footer ul{
     display: flex;
+    justify-content: center;
 }
 
 footer li{
     list-style: none;
-    font-size: 0.75rem;
-    margin: 0 2%;
+    font-size: 0.6rem;
+    margin: 0 1.5%;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons svg{
+    height: 1.8rem;
+    margin: 0 0.5%;
+}
+
+.footer-description{
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+footer div:last-child{
+    padding-bottom: 2%;
 }
