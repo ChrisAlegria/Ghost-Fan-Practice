@@ -327,7 +327,6 @@ nav a:hover{
 .get-satanized>div>div{
     width: 23.6%;
     height: 79vh;
-    background-color: red;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -498,4 +497,24 @@ nav a:hover{
 /** Chapers Videos **/
 .chapters{
     top: 960%;
+}
+
+/** Footer **/
+footer{
+    height: 20vh;
+    width: 100%;
+    color: #dcdcdc;
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    top: 1118%;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    list-style: none;
+    font-size: 0.75rem;
+    margin: 0 2%;
 }
