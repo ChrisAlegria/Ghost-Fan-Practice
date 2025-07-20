@@ -1,4 +1,4 @@
-# 👻 Ghost Website Practice
+# 👻 Ghost Website Practice 
 
 ## 📖 Project Description  
 This repository contains a **personal practice project** created to reinforce and explore the use of **HTML** and **CSS** by recreating the official website of the band **Ghost**. The goal was to apply previously acquired knowledge through a hands-on approach, focusing on structure, layout, and styling while experimenting with custom elements and adjustments.
