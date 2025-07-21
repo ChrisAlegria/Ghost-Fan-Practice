@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-image: url('../assets/img/Background.png');
     background-size: cover;
+    background-color: #0d1d23;
 }
 
 /** Header Section **/
